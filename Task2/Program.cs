@@ -3,7 +3,7 @@
 /// </summary>
 class Program
 {
-    static ILogger Logger { get; set; }
+    static ILogger? Logger { get; set; }
 
     static void Main(string[] args)
     {
